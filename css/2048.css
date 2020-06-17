@@ -1,0 +1,71 @@
+/* 初始化部分 */
+body,h1,a,p,div,span{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #f1f1f1;
+	font-family: arial;
+}
+a{
+	text-decoration:none;
+}
+
+/* header部分 */
+header{
+	text-align: center;
+	margin: 20px auto;
+}
+header h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+header #newgamebutton{
+	display: block;
+	width: 100px;
+	height: 30px;
+	background: #8F7A66;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	margin: 10px auto;
+	border-radius: 10px;
+	padding: 5px;
+}
+header #newgamebutton:hover{
+	background: #9F8B77;
+}
+header p{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+/* 棋盘区域 */
+#grid_container{
+	width: 460px;
+	height: 460px;
+	background: #BBADA0;
+	margin: 20px auto;
+	border-radius: 6px;
+	padding: 20px;
+	position: relative;
+}
+.gird_cell{
+	width: 100px;
+	height: 100px;
+	background: #CCC0B3;
+	border-radius:6px;
+	position: absolute;
+}
+.number_cell{
+	width: 100px;
+	height: 100px;
+/* 	background: #FF0; */
+	border-radius:6px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 60px;
+	font-weight: bold;
+	position: absolute;
+}
